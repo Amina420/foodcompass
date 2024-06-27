@@ -1,0 +1,77 @@
+
+/* ---All forms--- */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+h1{
+    color: #fff ;
+    text-align: center;
+}
+h3{
+    color: #fff ;
+    text-align: center;
+}
+h4{
+    color: #34A853;
+    text-align: center;
+}
+h6{
+    color: #EA4335;
+    text-align: center;
+}
+
+p{
+    color: #ffc800;
+    text-align: center;
+}
+ span{
+    color: #ffc800;
+    transition: all 0.3s ease;
+}
+.color{
+    color: red;
+}
+
+.btn{
+    color: #fff;
+    font-weight: bold;
+}
+.container {
+    width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url(../images/footer.jpg);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    color: #fff ;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+
+}
+
